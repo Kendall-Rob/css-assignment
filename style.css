@@ -5,6 +5,51 @@
   font-size: 2em;
 }
 
+p {
+  font-size: 16px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+}
+
+.navigation {
+  background-color: rgb(73, 157, 225);
+  padding: 20px;
+}
+
+#name{
+  border-radius: 2em;
+  margin-bottom: 15px;
+}
+
+li {
+  text-decoration: none;
+  color: rgb(45, 113, 169);
+}
+
+.favorite-food {
+  display: inline-block;
+  padding: 5px;
+}
+
+.hero {
+  position: relative;
+  top: 10px;
+  text-align: center;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+footer {
+  position: fixed;
+  left: 20px;
+  bottom: 5px;
+}
+
 /* Section 1: Selectors in CSS + Box Model */
 
 
